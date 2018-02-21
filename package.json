@@ -5,11 +5,13 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "trailpack-express": "^2.0.3",
+    "express": "^4.16.2",
+    "trailpack-express": "git+https://github.com/trailsjs/trailpack-express.git#v3",
+    "trailpack-footprints": "^3.0.1",
     "trailpack-router": "^3",
+    "trailpack-waterline": "^3.0.1",
     "trailpack-winston": "^3.0.1",
-    "trails": "^3.0.3",
-    "trails-controller": "^2.0.0"
+    "trails": "git+https://github.com/trailsjs/trails.git#bugfix/v3_fixes"
   },
   "devDependencies": {
     "eslint": "^3",
